@@ -1,0 +1,47 @@
+*{
+	margin: 0 auto;
+	padding: 10px;
+	background-color: #989393;
+}
+div li{
+	width: 150px;
+	height: 30px;
+	border: 1px solid black;
+	position: relative;
+	float: left;
+	text-align: center;
+	list-style: none;
+	background-color: #3f893d;
+}
+div a{
+	text-align: center;
+	text-decoration: none;
+	display: block;
+}
+div li .hidden{
+	display: none;
+}
+div li:hover .hidden{
+	display: block;
+}
+div li .hidden li .disappear{
+	display: none;
+	position: relative;
+	left: 151px;
+	top: -59px;
+}
+div li .hidden li:hover .disappear{
+	display:block;
+}
+div li li li{
+	clear: both;
+} 
+li:hover{background-color: yellow;}
+button{
+	width:91px;
+	height: 27px;
+	text-align: center;
+}
+button a{
+	text-decoration: none;
+}
