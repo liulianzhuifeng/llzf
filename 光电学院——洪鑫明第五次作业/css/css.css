@@ -1,0 +1,257 @@
+
+#body{
+	border:1px solid black;
+	width: 1335px;
+	height: 1700px;
+	background-image: url(../image/b.png);
+}
+#top_picture{
+	position: absolute;
+	top: 8px;
+	float: left;
+}
+#top_text{
+	color: white;
+	position: absolute;
+	top :54px;
+	left: 192px;
+    font-size: 150%;
+}
+#top_texts{
+	color: white;
+	position:absolute;
+	top: 2px;
+	font-size: 10%;
+	top: 95px;
+	left: 192px;
+}
+#top_input{
+	position:absolute;
+	top: 80px;
+	left: 1003px; 
+}
+#nav{
+	background-color: #197bb8;
+	position: absolute;
+	top: 150px;
+	left: 192px;
+	text-align: center;
+    border-radius:25px;
+}
+#nav ul{
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+#nav ul li{
+	float: left;
+	width: 118px;
+	height: 64px;
+	text-align: center;
+	margin: 0px;
+	line-height: 64px;
+    color: white;
+} 
+#nav ul li:hover{
+	background-color: #4fa2cc;
+}
+#picture1{
+	position: absolute;
+	top: 238px;
+	left:194px;
+}
+#picture1 ul{
+	list-style: none;
+}
+#picture1 ul li {
+	float: left;
+    word-spacing: 40px;
+}
+#picture1 a{
+    position: relative;
+    top: 60px;
+    left: 392px;
+    font-size: 150%;
+    letter-spacing: 50px;
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+}
+#picture1 img{
+    width: 1080px;
+    height: 359px;
+}
+#description{
+    position: absolute;
+    top: 597px;
+    left: 194px;
+}
+#description img{
+    width: 1080px;
+}
+#last{
+    position: absolute;
+    top: 735px;
+    left: 194px;
+    background: url(../image/g.png);
+    width: 1080px;
+    height: 800px;
+}
+#text1{
+    width: 640px;
+    height: 260px;
+}
+#text1 h2{
+    color: white;
+    position: absolute;
+    left: 25px;
+    top: 7px;
+}
+.p1{
+    color: white;
+    position: relative;
+    left: 25px;
+    top: 80px;
+}
+.p2{
+    position: relative;
+    color: white;
+    top: 94px;
+    left: 25px;
+}
+#button1{
+    background-color: #106bb2;
+    border-radius:10px;
+    border: 0px;
+    position: relative;
+    width: 100px;
+    height: 30px;
+    top: 104px;
+    left: 25px;
+}
+#text2{
+    width: 620px;
+    height: 376px;
+    position: relative;
+    top:85px;
+}
+#text2 h2{
+    color: white;
+    position: relative;
+    top: 80px;
+    left: 25px;
+}
+.p3{
+    color: white;
+    position: relative;
+    top: 90px;
+    left: 25px;
+}
+#last_picture{
+    position: relative;
+    top: 100px;
+    left: 41px;
+    width: 660px;
+    height: 160px;
+    background-color: black;
+}
+#left_button{
+    position: relative;
+    top: 60px;
+    left: 11px;
+}
+#right_button{
+    position: relative;
+    top: 30px;
+    left: 56px;
+}
+.photo{
+        margin-right: 25px;
+        width: 118px;
+        height: 153px;
+        float: left;
+        margin-top: 25;
+        position: relative;
+        top: -6px;
+        left: 64px;
+}
+.photo div{
+        width: 118px;
+        height: 95px;
+        text-align: center;
+        position: relative;
+        top: 0px;
+        left: -7px;
+}
+.photo div img{
+        width: 118px;
+        height: 90px;
+}
+.photo a{
+    color: white;
+    font-size: 50%;   
+    text-decoration: none;white;
+}
+.photo a:hover{
+    color: blue;
+}
+#text3{
+    position:relative;
+    top: -659px;
+    left:682px; 
+    width: 400px;
+    height: 350px;
+    line-height: 25px;
+}
+#text3 h2{
+    color: white;
+    position: absolute;
+    top: 0px;
+}
+#text3 ul{
+    position: relative;
+    top: 116px;
+    left:-10px;
+}
+#text3 a:hover{
+    color: white;   
+}
+#text4{
+    position: relative;
+    top: -587px;
+    left: 760px;
+}
+#text4 h2{
+    color: white;
+    position: relative;
+    top: 0px;
+    left: 3px;
+}
+#text4 p{
+    color: white;
+    position: relative;
+    left: 3px;
+}
+#end {
+    position: relative;
+    top: -500px;
+    color:#808080;
+}
+#end ul{
+    list-style: none;
+    position: relative;
+    left: -41px;
+}
+#end ul li {
+    float: left;
+    margin: 10px;
+}
+#end div{
+    position: relative;
+    top:-27px;
+    left: 617px;
+    text-decoration: #808080;
+}
+#end div a{
+    color:  #808080;
+}
